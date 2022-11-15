@@ -1,0 +1,36 @@
+.PSA {
+    color: white;
+}
+
+.wrapper {
+    background: #000;
+}
+
+.navbar {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    height: 80px;
+}
+
+.navLinkGroup {
+    display: flex;
+    align-items:center;
+}
+
+.navLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navLink {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
