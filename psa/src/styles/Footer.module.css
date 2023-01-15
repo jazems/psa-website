@@ -1,0 +1,32 @@
+.footerWrapper {
+    background-color: #323232;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight:200;
+}
+
+.footer {
+    margin: 0 15%;
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightWrapper {
+    display: flex;
+}
+
+.navLinks {
+    list-style: none;
+    margin: 0 40px;
+}
+
+.navLinks li {
+    margin-bottom: 6px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}

@@ -1,0 +1,24 @@
+.pillarsContainer {
+    /* grid stuff */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 75px;
+    row-gap: 50px;
+}
+
+.pillarsContainer img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+ font-size: 2rem;
+ padding-bottom: 20px;
+}
+
+.description {
+    font-size: 1.25rem;
+    font-weight: 200;
+}
