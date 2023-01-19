@@ -1,0 +1,33 @@
+.container {
+    /* grid stuff */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 75px;
+    row-gap: 50px;
+    margin: 0 auto;
+    width: 1000px;
+    justify-items: center;
+}
+
+.gridItem {
+    max-width: 440px;
+}
+
+.container img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+ font-size: 2rem;
+ padding-bottom: 20px;
+ font-family: "Nunito";
+ font-weight: 300;
+}
+
+.description {
+    font-size: 1.25rem;
+    font-weight: 200;
+}

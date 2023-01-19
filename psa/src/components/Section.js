@@ -5,8 +5,7 @@ function Section({title, color, fontColor, children}) {
     return (
         <div className={styles.sectionContainer} style={{backgroundColor: color, color: fontColor}}>
             <div className={styles.title}>
-                <p>{title}</p>
-                </div>
+                <p>{title}</p></div>
             {children}
         </div>
      );

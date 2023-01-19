@@ -1,18 +1,30 @@
 import React from 'react';
 import Navbar from "./Navbar"
 import styles from "../styles/Header.module.css"
+import background from "../assets/background.jpg"
 
-function Header({title}) {
+function Header({title, collapse}) {
+
     return ( 
-        <div>
-            <div className={styles.imageContainer}>
+        <>
+        {collapse? <div>
+            <div className={styles.imageContainer} style={{height: "500px"}}>
                 <Navbar/>
-                <img className={styles.image} src="https://wallpaperaccess.com/full/1660718.jpg" alt="main"/>
+                <img className={styles.image} src={background} alt="main"/>
                 <div className={styles.header}>
                     <p>{title}</p>
                 </div>
             </div>
+        </div> : <div>
+        <div className={styles.imageContainer}>
+            <Navbar/>
+            <img className={styles.image} style={{height: "100vh"}} src={background} alt="main"/>
+            <div className={styles.header}>
+                <p>{title}</p>
+            </div>
         </div>
+    </div>}
+    </>
     );
 }
 
