@@ -7,7 +7,5 @@
 body {
   margin: 0;
   padding: 0;
-  /* Fix this when making this mobile responsive */
-  min-width:1200px;
   font-family: 'Raleway', 'sans-serif';
 }

@@ -5,3 +5,19 @@
 .container p {
     margin-bottom: 20px;
 }
+
+.title {
+    font-size: 2rem;
+    font-family: "Nunito";
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 480px) {
+    .container p {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 1.4rem !important;
+    }
+}

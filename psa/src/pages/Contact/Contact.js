@@ -2,13 +2,13 @@ import React from 'react';
 import Header from "../../components/Header"
 import Footer from "../../components/Footer"
 import Section from "../../components/Section"
-import JoinInfo from "../JoinUs/JoinInfo"
+import ContactInfo from './ContactInfo';
 
 function Contact() {
     return ( 
     <div>
         <Header title="Contact" collapse={true}/>
-        <Section children={<JoinInfo />}/>
+        <Section children={<ContactInfo />}/>
         <Footer />
     </div>
     );

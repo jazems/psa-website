@@ -7,7 +7,8 @@ function Header({title, collapse}) {
 
     return ( 
         <>
-        {collapse? <div>
+        {collapse? 
+        <div>
             <div className={styles.imageContainer} style={{height: "500px"}}>
                 <Navbar/>
                 <img className={styles.image} src={background} alt="main"/>
@@ -15,15 +16,17 @@ function Header({title, collapse}) {
                     <p>{title}</p>
                 </div>
             </div>
-        </div> : <div>
-        <div className={styles.imageContainer}>
-            <Navbar/>
-            <img className={styles.image} style={{height: "100vh"}} src={background} alt="main"/>
-            <div className={styles.header}>
-                <p>{title}</p>
+        </div> : 
+        <div>
+            <div className={styles.imageContainer} style={{height: "100vh"}}>
+                <Navbar/>
+                <img className={styles.image} src={background} alt="main"/>
+                <div className={styles.header}>
+                    <p>{title}</p>
+                </div>
             </div>
-        </div>
-    </div>}
+    </div>
+    }
     </>
     );
 }

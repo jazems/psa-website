@@ -8,7 +8,7 @@ function Card({firstName, lastName, role, email, avi}) {
             <img src={avi} alt="avi" />
         </div>
         <div className={styles.cardBody}>
-            <p style={{fontSize: "20px"}}>{firstName}, {lastName}</p>
+            <p style={{fontSize: "20px"}}>{firstName} {lastName}</p>
             <p>{role}</p>
             <p style={{fontSize: "12px", marginTop: "4px"}}>{email}</p>
         </div>
