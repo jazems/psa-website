@@ -1,1 +1,1 @@
-Official website of the University of California, Berkeley Pakistani Student Association.
+Official website of the University of California, Berkeley's Pakistani Student Association.
