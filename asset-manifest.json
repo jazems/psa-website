@@ -1,28 +1,31 @@
 {
   "files": {
     "main.css": "/psa-website/static/css/main.6cea5662.css",
-    "main.js": "/psa-website/static/js/main.5538c32e.js",
+    "main.js": "/psa-website/static/js/main.601bf253.js",
     "static/media/background.jpg": "/psa-website/static/media/background.3ffe00e5e6f6924124ab.jpg",
     "static/media/culture.jpg": "/psa-website/static/media/culture.fa1f6e545500a8386c87.jpg",
+    "static/media/culture_show.png": "/psa-website/static/media/culture_show.13aa2a0eafc8af56c125.png",
     "static/media/politics.jpg": "/psa-website/static/media/politics.dc1a9ba59450b6fdffc2.jpg",
     "static/media/society.jpg": "/psa-website/static/media/society.54e047acce4a68d589f8.jpg",
     "static/media/amal.jpg": "/psa-website/static/media/amal.924ed1afa449ec202119.jpg",
     "static/media/saeed.jpg": "/psa-website/static/media/saeed.67aedf6ed95e6d5b0cf2.jpg",
     "static/media/mustafa.jpg": "/psa-website/static/media/mustafa.29966cc80afff7471f29.jpg",
     "static/media/sundus.jpg": "/psa-website/static/media/sundus.a3de891201bee8440eb4.jpg",
+    "static/media/mkrplaceholder.jpeg": "/psa-website/static/media/mkrplaceholder.cfc014fe14f896d2063b.jpeg",
     "static/media/manal.jpg": "/psa-website/static/media/manal.4a5093f207b9d52bca04.jpg",
     "static/media/azmarak.jpg": "/psa-website/static/media/azmarak.5b25c34664752c502174.jpg",
     "static/media/raaed.jpg": "/psa-website/static/media/raaed.195b74ef1cdff81f95c9.jpg",
     "static/media/mashal.jpg": "/psa-website/static/media/mashal.8e98a5feeb6bb2abfa58.jpg",
     "static/media/jazem.jpg": "/psa-website/static/media/jazem.bed8150d7cc0c1fdfdce.jpg",
     "static/media/hashim.jpg": "/psa-website/static/media/hashim.53698d73dca2d7a5b051.jpg",
+    "static/media/pakistaniseminar.jpeg": "/psa-website/static/media/pakistaniseminar.0eb1602f3d41e010a92e.jpeg",
     "static/media/logo.png": "/psa-website/static/media/logo.acda2c89d6adefd3bba1.png",
     "index.html": "/psa-website/index.html",
     "main.6cea5662.css.map": "/psa-website/static/css/main.6cea5662.css.map",
-    "main.5538c32e.js.map": "/psa-website/static/js/main.5538c32e.js.map"
+    "main.601bf253.js.map": "/psa-website/static/js/main.601bf253.js.map"
   },
   "entrypoints": [
     "static/css/main.6cea5662.css",
-    "static/js/main.5538c32e.js"
+    "static/js/main.601bf253.js"
   ]
 }
